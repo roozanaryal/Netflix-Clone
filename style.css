@@ -1,0 +1,89 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+   padding: 0;
+}
+.main {
+   height: 90vh;
+   background-image: url(assets/wallpaper.jpg);
+   background-size: max(1200px, 100vw);
+   position: relative;
+   background-repeat: none;
+   background-position: centre;
+}
+.main .box {
+   width: 100%;
+   height: 90vh;
+   opacity: 0.44;
+   background-color: black;
+   position: absolute;
+   top: 0;
+}
+nav {
+   max-width: 80vw;
+   margin: auto;
+   align-items: center;
+   max-height: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+nav img {
+   position: relative;
+   z-index: 1;
+   width: 190px;
+}
+.SignBtn {
+    border-radius: 4px;
+    padding: 8px 14px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.article {
+
+    position: relative;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+   align-items: center;
+   gap: 25px;
+
+}
+.article>:nth-child(1){
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.sec{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.input_field input{
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 7px 15px 8px 14px;
+    border-radius: 5px;
+    color: white;   
+}
+.input_field button{
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px 30px;
+    border:none;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.line{
+    background-color: gray;
+    height: 8px;
+}
